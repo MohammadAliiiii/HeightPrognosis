@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navContainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+}
+nav{
+    background: dodgerblue;
+    width: 80vw;
+    border-radius: 1vh;
+    box-shadow: 10px 5px 5px black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 3vh 3vw;   
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 2vh 2vw;
+    font-size: 24px;
+    border: 2px solid yellow;
+    border-radius: 1vh;
+    padding: 1vh 1vw;
+    box-shadow: black 3px 4px 5px;
+
+}
+.heightPrognosis{
+    font-size: 48px;
+    color: yellow;
+}
+.contentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 4vh;
+}
+.box{
+    background: dodgerblue;
+    height: 100vh;
+    width: 80vw;
+    border-radius: 1vh;
+    text-align: center;
+    box-shadow: 10px 5px 5px black;
+    overflow: auto;
+    margin-top: 7vh;
+}
+.small{
+    font-size: 28px;
+    margin-top: 4vh;
+    background: yellow;
+    border-radius: 1vh;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2vh;
+    border: 2px solid black;
+    padding: .5vh .5vw;
+}
+input{
+    font-size: 18px;
+    outline: none;
+    border-radius: 1vh;
+    padding: .5vh .5vw;
+    border: 2px solid black;
+    width: 10vw;
+    text-align: center;
+}
+label{
+    font-size: 24px;
+}
+#gender{
+    height: 4vh;
+    width: 10vw;
+    outline: none;
+    border-radius: 1vh;
+    border: 2px solid black;
+}
+#answer{
+    font-size: 24px;
+    background: yellow;
+    width: fit-content;
+    margin: auto;
+    border-radius: 1vh;
+    border: 2px solid black;
+    padding: .5vh .5vw;
+}
+#Submit{
+    background: yellow;
+    border-radius: 1vh;
+    border: 2px solid black;
+    padding: .3vh .3vw;
+    cursor: pointer;
+}
+#Submit:hover{
+    background: orange;
+}
+.maxContainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+}
+.aboutContainer{
+    width: 60vw;
+    border-radius: 1vh;
+    box-shadow: 10px 5px 5px black;
+    background: dodgerblue;
+    padding: 6vh 6vw;
+}
+@media (max-width:494px) {
+    .heightPrognosis{
+        font-size: 24px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    .box{
+        padding: 2vh 2vw;
+    }
+    input{
+        width: 15vw;
+    }
+    .gender{
+        width: 20vw;
+    }
+    .answer{
+        font-size: 15px;
+    }
+}

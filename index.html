@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HeightPrognosis - Adult Height calculator</title>
+</head>
+
+<body>
+    <div class="navContainer">
+        <nav>
+            <h1 class="heightPrognosis">HeightPrognosis</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contentContainer">
+        <div class="box">
+            <p class="small">Know your Adult Height from your Genetics:</p><br><br>
+            <label>Mother's Height(in inches):</label><br><br>
+            <input type="text" id="inputField1" pattern="\d*" title="Please enter a number." inputmode="numeric" required><br><br><br><br>
+            <label>Father's Height(in inches):</label><br><br>
+            <input type="text" id="inputField2" pattern="\d*" title="Please enter a number." inputmode="numeric" required><br><br><br><br>
+            <label for="">select your gender:</label><br><br>
+            <select name="Gender" id="gender">
+                <option value="">--select your Gender--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br><br>
+            <button id="Submit" onclick="check()">Submit</button><br><br><br>
+            <p id="answer"></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script>alert('please put the height in inches')</script>
+
+</html>
